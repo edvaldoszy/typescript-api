@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "showOutput": "always",
+            "command": "node_modules/typescript/bin/tsc"
+        }
+    ]
+}
