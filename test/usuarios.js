@@ -1,4 +1,3 @@
-var fetch = require("node-fetch");
 var assert = require("assert");
 
 before(() => {
@@ -16,13 +15,16 @@ describe("Cadastro de usuários", () => {
 });
 
 function itCadastrarNovoUsuario(done) {
+    assert.equal(100, 100);
     done();
 }
 
 function itAutenticarNovoUsuario(done) {
+    assert.notEqual(100, 200);
     done();
 }
 
 function itAlterarTelefoneUsuario(done) {
+    assert.ok(true);
     done();
 }
