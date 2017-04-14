@@ -1,4 +1,4 @@
-# typescript-server
+# typescript-api
 Estrutura básica para construção de aplicações server-side com TypeScript
 
 Execute o comando para instalar os pacotes do NPM
